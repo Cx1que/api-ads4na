@@ -23,3 +23,4 @@ export const addUser = async (req: Request, res: Response) => {
     res.status(500).json({ error: 'Erro ao adicionar usuário' });
   }
 };
+
